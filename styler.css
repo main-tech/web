@@ -1,0 +1,272 @@
+
+.introit
+{
+  margin-top:-25px;
+      text-shadow: 10px 10px 13px rgb(255, 255, 255);
+color:rgb(255, 255, 255);
+      
+      background-position: center;
+      background-repeat: no-repeat;
+     
+  position:relative;
+   
+}
+
+.introitem
+{
+    
+ 
+  color: #fff;
+  mix-blend-mode:exclusion;
+  font-weight: bold;
+  font-size: 1.4em;
+
+  position: absolute;
+  top: 50%;
+ 
+  transform: translate(0, -50%); /* (x, y) => position */
+text-align:center;
+ 
+}
+
+
+body
+{
+background-color: rgb(219, 227, 253);
+}
+
+
+footer 
+{
+      
+      text-align: center;
+      padding: 3px;
+      background-color: rgb(53, 53, 53);
+      color: white;
+      position:fixed;
+      bottom:0;
+      width:100%;
+    }
+    #indexintroit
+    {
+      z-index: -1;
+      background-image: url('images/student.jpg');
+      height: 620px;
+
+     
+    }
+    #collegeintroit
+    {
+      background-image: url('images/tech.jpg');
+      height: 600px;
+
+    }
+    #beautyintroit
+    {
+      background-image: url('images/beauty.jpg');
+      height: 600px;
+
+    }
+    #contactintroit
+    {
+      background-image: url('images/contact.jpg');
+      height: 600px;
+    
+    }
+   
+    .nav1
+    {
+    
+      
+      z-index: 3;
+     
+    }
+    nav.navbar.navbar-inverse
+    {
+      z-index: 3;
+  
+    }
+    .index2
+    {
+      z-index:-1;
+    }
+.list-group 
+{
+  margin-bottom:50px;
+}
+.contactdiv
+{
+  margin-bottom:70px;
+  text-align:center;
+  word-break: break-all;
+
+}
+.item
+{
+
+  mix-blend-mode:exclusion ;
+  font-weight: bold;
+  text-shadow: 10px 10px 13px rgb(255, 255, 255) ;
+  color:rgb(255, 255, 255) ;
+}
+
+@media only screen and (min-width: 721px) {
+  img.imgindex
+  {
+    max-width: 100%;
+    height: auto; 
+  }
+}
+@media only screen and (max-width: 721px) {
+  img.imgindex
+  {
+    min-height: 300.5;
+    min-width:246px;
+overflow:hidden;
+  }
+}
+@keyframes email
+{
+from {color:green;}
+to { color:yellow;}
+}
+.contact1
+{
+  animation-name:email;
+  animation-duration:0.5s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+}
+.contact2
+{
+  animation-name:number;
+  animation-duration:0.5s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+
+}
+@keyframes number
+{
+from{ color:yellow;}
+to{ color: green;}
+}
+@keyframes listanimation
+{
+from{ color:rgb(0, 0, 0);}
+to{ color:silver;}
+}
+
+.list1
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+
+}
+
+.list2
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:1s;
+
+}
+.list3
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:2s;
+}
+.list4
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:3s;
+}
+.list5
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:4s;
+}
+.list6
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:5s;
+}
+.list7
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:6s;
+}
+.list8
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:7s;
+}
+.list9
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:8s;
+}
+.list10
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:9s;
+}
+.list11
+{
+  animation-name:listanimation;
+  animation-duration:3s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-delay:10s;
+}
+@keyframes listgroupanimation {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+.anime
+{
+  margin-top:0px;
+  animation-name:listgroupanimation;
+  animation-duration:3s;
+  animation-direction:alternate;
+ 
+}
+.carousel-indicators
+{
+  z-index: 1;
+}
+.commentdiv
+{
+  background-color:grey;
+  margin-bottom:70px;
+}
