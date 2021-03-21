@@ -33,6 +33,9 @@ text-align:center;
 body
 {
 background-color: rgb(219, 227, 253);
+
+
+
 }
 
 
@@ -43,30 +46,13 @@ footer
       padding: 3px;
       background-color: rgb(53, 53, 53);
       color: white;
-      position:fixed;
+      position:sticky;
       bottom:0;
       width:100%;
+      margin-top:0px;
     }
-    #indexintroit
-    {
-      z-index: -1;
-      background-image: url('images/student.jpg');
-      height: 620px;
-
-     
-    }
-    #collegeintroit
-    {
-      background-image: url('images/tech.jpg');
-      height: 600px;
-
-    }
-    #beautyintroit
-    {
-      background-image: url('images/beauty.jpg');
-      height: 600px;
-
-    }
+    
+   
     #contactintroit
     {
       background-image: url('images/contact.jpg');
@@ -101,13 +87,17 @@ footer
   word-break: break-all;
 
 }
-.item
+div.carousel-caption
 {
 
-  mix-blend-mode:exclusion ;
+  mix-blend-mode:difference ;
+ 
   font-weight: bold;
-  text-shadow: 10px 10px 13px rgb(255, 255, 255) ;
-  color:rgb(255, 255, 255) ;
+  /*text-shadow: color offsetx offsety blur;*/
+  text-shadow: 2px 2px 33px #ffffff;
+ 
+  
+ 
 }
 
 @media only screen and (min-width: 721px) {
@@ -268,5 +258,19 @@ to{ color:silver;}
 .commentdiv
 {
   background-color:grey;
-  margin-bottom:70px;
+ 
+}
+
+.gradient
+{
+  /* linear-gradient(direction, color1, color2);
+  or
+  linear-gradient(direction, color1, color2.color3);
+  */
+  background: linear-gradient(to bottom, rgb(222, 255, 212), rgb(25, 252, 44));
+  padding-bottom:40px;
+}
+div{
+margin-top:0px;
+margin-bottom:0px;
 }
